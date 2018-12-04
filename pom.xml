@@ -243,6 +243,18 @@
 
   <build>
     <plugins>
+
+      <plugin>
+        <groupId>TestSelection</groupId>
+        <artifactId>TestSelection</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+        <configuration>
+          <rootPath>C:\Users\dell\Desktop\software_engineering\project\commons-fileupload</rootPath>
+          <classPackageName>org.apache.commons.fileupload</classPackageName>
+          <testPackageName>org.apache.commons.fileupload</testPackageName>
+        </configuration>
+      </plugin>
+
       <plugin>
         <artifactId>maven-assembly-plugin</artifactId>
         <configuration>
